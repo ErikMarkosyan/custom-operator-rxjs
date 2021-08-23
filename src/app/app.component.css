@@ -1,0 +1,21 @@
+div {
+  text-align: center;
+}
+
+.list {
+  font-size: large;
+  padding: 5rem;
+  flex-direction: column;
+
+}
+
+span {
+  padding: 5rem;
+}
+
+button{
+  margin: 5rem;
+  background: black;
+  color: red;
+  font: large;
+}

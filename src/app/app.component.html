@@ -1,0 +1,10 @@
+
+<div class='list'>
+  <ng-container *ngIf="data$ | async as data">
+    <span *ngFor="let item of data">{{item.name}}</span>
+  </ng-container>
+  <div>
+<div>
+    <button (click)="sort()"><</button>
+    <button (click)="sortDesc()">></button>
+</div>
